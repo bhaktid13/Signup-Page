@@ -50,7 +50,7 @@ function profilePush() {
     var dob = new Date(document.getElementById("dob").value);
 
     if (name && email && phone && dob) {
-        var defaultCountryCode = '+1';
+        var defaultCountryCode = '+91';
         
         // Format the phone number with default country code
         phone = defaultCountryCode + phone;
